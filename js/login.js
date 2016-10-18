@@ -14,7 +14,7 @@ $( document ).ready(function() {
 				return console.error(result.message);
 			}
 				localStorage.setItem("user", result);
-				window.location = "/pages/account.html";
+				window.location = "../pages/store.html";
 		}).fail(function(err) {
 			// do something with the failure, like laugh at the user
 			window.alert("hahahahaha! NO!");
